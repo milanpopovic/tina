@@ -1,4 +1,4 @@
-backend/node-modules
-frontend/node-modules
-frontend/build
-backup
+backend/node-modules/
+frontend/node-modules/
+frontend/build/
+backup/
