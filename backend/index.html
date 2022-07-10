@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Database: tina, collection: artwork</h2>
+    <b>Add new record</b>
+    <form method="POST" action="/artwork/record/add" target="server-response">
+    <input type="text" size="140" name="record" />
+    <input type="submit" value="Submit" />
+    </form>
+    <br/>
+    <b>Delete a record</b>
+    <form method="POST" action="/artwork/delete" target="server-response">
+        <input type="text" size="140" name="record" />
+        <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <b>Search</b>
+    <form method="POST" action="/artwork/search" target="server-response">
+        <input type="text" size="140" name="record" />
+        <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <b>Server response</b>
+    <iframe src="" name="server-response" width="100%" height="400"></iframe>
+</body>
+
+</html>
