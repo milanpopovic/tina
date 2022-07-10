@@ -1,4 +1,4 @@
-# tina - React, Express, Mongodb application
+# tina - Mongo, Express, React, Node (**MERN**) Stack
 
 Clone (or download) tina repository to your local folder.
 
