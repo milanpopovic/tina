@@ -1,4 +1,4 @@
-# tina - React, Express, Mongodb application
+# tina - Mongo, Express, React, Node (**MERN**) Stack
 
 This is github deployment of **tina** frontend.
 Open link https://milanpopovic.github.io/tina to access the app.
