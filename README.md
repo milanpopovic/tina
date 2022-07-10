@@ -12,5 +12,5 @@ Open **frontend** folder in terminal
 
 ```
 $ npm install      # install node modules
-$ npm start        # install node modules
+$ npm start        # start development server
 ```
